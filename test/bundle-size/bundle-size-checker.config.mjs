@@ -48,6 +48,6 @@ export default defineConfig(async () => {
       '@mui/utils',
     ],
     upload: !!process.env.CI,
-    comment: false,
+    comment: true,
   };
 });
